@@ -30,7 +30,6 @@ const initialState = {
         totalItem: 0,
   }
   
-  
   function cart(state = initialState, action) {
     const { type, payload } = action;
     console.log("OOOOOOOOOOOOOOOOOOOOOO",type, payload);
