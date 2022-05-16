@@ -35,7 +35,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "dev": "node main.js"
+    "dev": "node main.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix build && npm run build --prefix build"
   },
   "resolutions": {
     "rc-util": "^5.8.1"
