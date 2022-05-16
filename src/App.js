@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './app.css'
+import './app.css';
 import Drawer1 from './common/sidemenu/drawer1'
 import Echo_alexa from './common/subsidemenu/pages/echo_alexa'
 import Firelite from './common/subsidemenu/pages/firelite'
@@ -25,7 +25,7 @@ import OtpVerification from './Onboarding/verification/otpVerification'
 import EmailPhoneAssistance from './Onboarding/verification/emailPhoneAssistance'
 import ResetPassword from './Onboarding/verification/resetPassword'
 import TwoStepVerification from './Onboarding/verification/twoStepVerification'
-import Share from './common/subsidemenu/dash/helper/share'
+import Share from './common/subsidemenu/dash/helper/share';
 function App() {
 
   const [loader, setLoader] = useState(false)
